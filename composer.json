@@ -1,0 +1,25 @@
+{
+	"name" : "makinacorpus/drush-progressbar",
+	"type" : "library",
+	"description" : "Simple progress bar API for Drush",
+	"homepage" : "http://github.com/makinacorpus/drush-progressbar",
+	"license" : "GPL-2",
+	"authors" : [{
+			"name" : "Pierre Rineau",
+			"email" : "pierre.rineau@makina-corpus.com"
+		}, {
+			"name" : "Makina Corpus",
+			"homepage" : "http://makina-corpus.com"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"lib/DrushProgressBar.php"
+		]
+	},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require-dev" : {
+		"phpunit/phpunit" : "^5.1"
+	}
+}
